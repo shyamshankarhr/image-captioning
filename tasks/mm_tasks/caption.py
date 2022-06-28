@@ -20,7 +20,7 @@ from fairseq.tasks import register_task
 from tasks.ofa_task import OFATask, OFAConfig
 from data.mm_data.caption_dataset import CaptionDataset
 from data.file_dataset import FileDataset
-from utils.cider.pyciderevalcap.ciderD.ciderD import CiderD
+from caption_utils.cider.pyciderevalcap.ciderD.ciderD import CiderD
 
 EVAL_BLEU_ORDER = 4
 

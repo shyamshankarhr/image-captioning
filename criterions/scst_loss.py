@@ -16,7 +16,7 @@ from fairseq.dataclass import FairseqDataclass
 from omegaconf import II
 
 from data import data_utils
-from utils.cider.pyciderevalcap.ciderD.ciderD import CiderD
+from caption_utils.cider.pyciderevalcap.ciderD.ciderD import CiderD
 
 
 def scst_loss(lprobs, target, reward, ignore_index=None, reduce=True):

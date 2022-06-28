@@ -19,8 +19,8 @@ from fairseq.logging import progress_bar
 from fairseq.utils import reset_logging
 from omegaconf import DictConfig
 
-from utils import checkpoint_utils
-from utils.eval_utils import eval_step
+from caption_utils import checkpoint_utils
+from caption_utils.eval_utils import eval_step
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",

@@ -43,7 +43,7 @@ from fairseq.model_parallel.megatron_trainer import MegatronTrainer
 # from fairseq.trainer import Trainer
 from omegaconf import DictConfig, OmegaConf
 
-from utils import checkpoint_utils
+from caption_utils import checkpoint_utils
 from trainer import Trainer
 
 
